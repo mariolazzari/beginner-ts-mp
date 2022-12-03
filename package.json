@@ -1,0 +1,23 @@
+{
+  "name": "beginner-ts-mp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariolazzari/beginner-ts-mp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariolazzari/beginner-ts-mp/issues"
+  },
+  "homepage": "https://github.com/mariolazzari/beginner-ts-mp#readme",
+  "devDependencies": {
+    "vitest": "^0.25.3"
+  }
+}
