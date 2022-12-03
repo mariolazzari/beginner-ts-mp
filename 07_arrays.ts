@@ -1,4 +1,4 @@
-//type Role = "user" | "admin";
+type Role = "user" | "admin";
 
 interface IPost {
   id: number;
