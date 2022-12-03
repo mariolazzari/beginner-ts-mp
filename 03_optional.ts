@@ -3,7 +3,7 @@ type Name = {
   last?: string;
 };
 
-const getName = ({ first, last }: Name) => {
+const getName = ({ first, last }: Name): string => {
   if (last) {
     return `${first} ${last}`;
   }
