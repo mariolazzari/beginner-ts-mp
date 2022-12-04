@@ -1,0 +1,11 @@
+type Focus = (isFocus: boolean) => void;
+
+const addListener = (onFocusChange: Focus) => {
+  window.addEventListener("focus", () => {
+    onFocusChange(true);
+  });
+
+  window.addEventListener("blur", () => {
+    onFocusChange(false);
+  });
+};
